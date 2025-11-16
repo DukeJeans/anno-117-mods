@@ -3,8 +3,35 @@
   <ModOp Type="merge" GUID="3527">
     <Values>
       <EffectSource>
-        <RadiusDistance>36</RadiusDistance>
-        <StreetDistance>42</StreetDistance>
+        <RadiusDistance>30</RadiusDistance>
+        <StreetDistance>35</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Market -->
+  <ModOp Type="merge" GUID="6724">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>30</RadiusDistance>
+        <StreetDistance>35</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Tavern -->
+  <ModOp Type="merge" GUID="3528">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>28</RadiusDistance>
+        <StreetDistance>33</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Bardic Hall -->
+  <ModOp Type="merge" GUID="3528">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>28</RadiusDistance>
+        <StreetDistance>33</StreetDistance>
       </EffectSource>
     </Values>
   </ModOp>
