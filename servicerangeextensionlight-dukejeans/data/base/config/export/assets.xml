@@ -1,0 +1,11 @@
+<ModOps>
+  <!-- Roman Market -->
+  <ModOp Type="merge" GUID="3527">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>36</RadiusDistance>
+        <StreetDistance>42</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+</ModOps>
