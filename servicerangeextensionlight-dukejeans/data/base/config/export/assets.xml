@@ -27,11 +27,56 @@
     </Values>
   </ModOp>
   <!-- Celtic Bardic Hall -->
-  <ModOp Type="merge" GUID="3528">
+  <ModOp Type="merge" GUID="6727">
     <Values>
       <EffectSource>
         <RadiusDistance>28</RadiusDistance>
         <StreetDistance>33</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Grammaticus -->
+  <ModOp Type="merge" GUID="3616">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>28</RadiusDistance>
+        <StreetDistance>33</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Grammaticus -->
+  <ModOp Type="merge" GUID="6730">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>28</RadiusDistance>
+        <StreetDistance>33</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Sporting Grounds -->
+  <ModOp Type="merge" GUID="6725">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>43</RadiusDistance>
+        <StreetDistance>48</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Sanctuary -->
+  <ModOp Type="merge" GUID="3615">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>43</RadiusDistance>
+        <StreetDistance>48</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Fanum -->
+  <ModOp Type="merge" GUID="6728">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>43</RadiusDistance>
+        <StreetDistance>48</StreetDistance>
       </EffectSource>
     </Values>
   </ModOp>
