@@ -197,4 +197,22 @@
       </EffectSource>
     </Values>
   </ModOp>
+  <!-- Roman Aqueduct Distributor -->
+  <ModOp Type="merge" GUID="19753">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>45</RadiusDistance>
+        <StreetDistance>45</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Aqueduct Distributor -->
+  <ModOp Type="merge" GUID="29526">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>45</RadiusDistance>
+        <StreetDistance>45</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
 </ModOps>

@@ -2,7 +2,7 @@
 
 Increases the range of "service" purposed buildings by 25%. This amount was chosen in order to still require the occasional service building, while making it still feel as if you don't need two Temples, let's say, ontop of one another even though you have marble roads.
 
-Appropriate if you don't want to totally discredit the need of public service buildings and wonders, but don't want them crowding every other city block. Want that temple up on the cliff, but also love that population buff? Well now you can _reasonably_ have the best of both worlds, _hopefully_. Rome wasn't built in a day, after all.
+Appropriate if you don't want to totally discredit the need of public service buildings and wonders, but don't want them crowding every other city block. Want that temple up on the cliff, but also love that population buff? Well now you can _reasonably_ have the best of both worlds, _hopefully_. Rome wasn't built in a day, after all. Also, acqueduct water distribution is included.
 
 ## Affected Buildings and Stats
 
@@ -28,4 +28,6 @@ Appropriate if you don't want to totally discredit the need of public service bu
 * **Celtic Theater** (Radius: 58, Street: 63)
 * **Library** (Radius: 73, Street: 78)
 * **Barrow** (Radius: 78, Street: 83)
+* **Roman Acqueduct Cistern** (Radius: 45, Street: 45)
+* **Celtic Acqueduct Cistern** (Radius: 45, Street: 45)
 
