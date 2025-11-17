@@ -80,4 +80,85 @@
       </EffectSource>
     </Values>
   </ModOp>
+  <!-- Roman Forum -->
+  <ModOp Type="merge" GUID="3617">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>83</RadiusDistance>
+        <StreetDistance>88</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Town Hall -->
+  <ModOp Type="merge" GUID="6726">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>53</RadiusDistance>
+        <StreetDistance>58</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Baths -->
+  <ModOp Type="merge" GUID="3620">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>78</RadiusDistance>
+        <StreetDistance>83</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Baths -->
+  <ModOp Type="merge" GUID="8062">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>78</RadiusDistance>
+        <StreetDistance>83</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Temple -->
+  <ModOp Type="merge" GUID="3619">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>80</RadiusDistance>
+        <StreetDistance>85</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Temple -->
+  <ModOp Type="merge" GUID="6729">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>80</RadiusDistance>
+        <StreetDistance>85</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Sacred Grove -->
+  <ModOp Type="merge" GUID="55981">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>80</RadiusDistance>
+        <StreetDistance>85</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Gambling House -->
+  <ModOp Type="merge" GUID="31367">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>48</RadiusDistance>
+        <StreetDistance>53</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Gambling House -->
+  <ModOp Type="merge" GUID="37177">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>48</RadiusDistance>
+        <StreetDistance>53</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
 </ModOps>
