@@ -1,28 +1,13 @@
 <ModOps>
   <ModOp Type="addNextSibling" GUID='68498'>
     <Asset>
-      <Template>BuildingBuff</Template> 
+      <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>1500500000</GUID>
-          <Name>Productivity Boost</Name>
+          <Name>Productivity Boost (Stats)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/newspaper/icon_productivity_green_0.dds</IconFilename>
         </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Productivity Boost (DukeJeans)</Text>
-            </English>
-          </LocaText>
-          <LineID>1500500001</LineID>
-        </Text>
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>3527</GUID> 
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
         <FactoryUpgrade>
           <ProductivityUpgrade>
             <Value>100</Value>
@@ -37,39 +22,66 @@
 
   <ModOp Type="addNextSibling" GUID='1500500000'>
     <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1500500001</GUID>
+          <Name>Productivity Boost (Distributor)</Name>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>1500500000</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>3527</GUID> </Item>
+          </Targets>
+        </Effect>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='1500500001'>
+    <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
           <GUID>1500500002</GUID>
-          <Name>Productivity Boost (Latium Trigger)</Name>
+          <Name>Productivity Boost (Auto Trigger)</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
-            <Template>ConditionActiveSession</Template>
+            <Template>ConditionAlwaysTrue</Template>
             <Values>
               <Condition />
-              <ConditionActiveSession>
-                <ActiveSession>6627</ActiveSession>
-              </ConditionActiveSession>
+              <ConditionAlwaysTrue />
             </Values>
           </TriggerCondition>
           <TriggerActions>
             <Item>
               <TriggerAction>
-                <Template>ActionEffect</Template>
+                <Template>ActionUnlockAsset</Template>
                 <Values>
                   <Action />
-                  <ActionEffect>
-                    <EffectAsset>1500500000</EffectAsset>
-                    <StartEffect>1</StartEffect>
-                    <AffectProcessingParticipant>1</AffectProcessingParticipant>
-                  </ActionEffect>
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1500500001</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnlockingMember>1</UnlockingMember>
+                  </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
             </Item>
           </TriggerActions>
         </Trigger>
-        <TriggerSetup />
+        <TriggerSetup>
+          <AutoRegister>1</AutoRegister> 
+        </TriggerSetup>
       </Values>
     </Asset>
   </ModOp>
