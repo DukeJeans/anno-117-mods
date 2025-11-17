@@ -161,4 +161,40 @@
       </EffectSource>
     </Values>
   </ModOp>
+  <!-- Roman Theater -->
+  <ModOp Type="merge" GUID="3618">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>58</RadiusDistance>
+        <StreetDistance>63</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Theater -->
+  <ModOp Type="merge" GUID="37178">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>58</RadiusDistance>
+        <StreetDistance>63</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Roman Library -->
+  <ModOp Type="merge" GUID="31368">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>73</RadiusDistance>
+        <StreetDistance>78</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  <!-- Celtic Barrow -->
+  <ModOp Type="merge" GUID="55980">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>78</RadiusDistance>
+        <StreetDistance>83</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
 </ModOps>
