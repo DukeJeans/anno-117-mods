@@ -1,7 +1,7 @@
 <ModOps>
   <ModOp Type="addNextSibling" GUID='68498'>
     <Asset>
-      <Template>BuildingBuff</Template>
+      <Template>BuildingBuff</Template> 
       <Values>
         <Standard>
           <GUID>1500500000</GUID>
@@ -19,32 +19,29 @@
         <ItemEffect>
           <EffectTargets>
             <Item>
-              <GUID>38370</GUID>
+              <GUID>3527</GUID> 
             </Item>
-            <!--<Item>
-              <GUID>107521</GUID>
-            </Item>
-            <Item>
-              <GUID>51905</GUID>
-            </Item>
-            <Item>
-              <GUID>38370</GUID>
-            </Item>-->
           </EffectTargets>
         </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
         <BuildingUpgrade />
         <Buff />
       </Values>
     </Asset>
   </ModOp>
-  <ModOp Type="addNextSibling" GUID='1500500001'>
-    <!-- Apply to Latium -->
+
+  <ModOp Type="addNextSibling" GUID='1500500000'>
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
           <GUID>1500500002</GUID>
-          <Name>Productivity Boost (Latium)</Name>
+          <Name>Productivity Boost (Latium Trigger)</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -59,32 +56,20 @@
           <TriggerActions>
             <Item>
               <TriggerAction>
-                <Template>ActionBuff</Template>
+                <Template>ActionEffect</Template>
                 <Values>
                   <Action />
-                  <ActionBuff>
-                    <BuffAsset>2147483647</BuffAsset>
-                    <AddBuff>0</AddBuff>
-                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
-                  </ActionBuff>
-                </Values>
-              </TriggerAction>
-            </Item>
-            <Item>
-              <TriggerAction>
-                <Template>ActionBuff</Template>
-                <Values>
-                  <Action />
-                  <ActionBuff>
-                    <BuffAsset>2147483647</BuffAsset>
-                    <AddBuff>1</AddBuff>
-                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
-                  </ActionBuff>
+                  <ActionEffect>
+                    <EffectAsset>1500500000</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                    <AffectProcessingParticipant>1</AffectProcessingParticipant>
+                  </ActionEffect>
                 </Values>
               </TriggerAction>
             </Item>
           </TriggerActions>
         </Trigger>
+        <TriggerSetup />
       </Values>
     </Asset>
   </ModOp>
