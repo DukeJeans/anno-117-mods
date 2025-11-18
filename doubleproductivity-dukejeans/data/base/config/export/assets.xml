@@ -1,12 +1,12 @@
 <ModOps>
-  <ModOp Type="addNextSibling" GUID='68498'>
+  <ModOp Type="addNextSibling" GUID="28215">
     <Asset>
       <Template>BuildingBuff</Template>
       <Values>
         <Standard>
           <GUID>1500500000</GUID>
-          <Name>Productivity Boost (Stats)</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/newspaper/icon_productivity_green_0.dds</IconFilename>
+          <Name>Lex Annonae (Buff Stats)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_scroll_odyssey_0.dds</IconFilename>
         </Standard>
         <FactoryUpgrade>
           <ProductivityUpgrade>
@@ -14,19 +14,17 @@
             <Percental>1</Percental>
           </ProductivityUpgrade>
         </FactoryUpgrade>
-        <BuildingUpgrade />
-        <Buff />
       </Values>
     </Asset>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID='1500500000'>
+  <ModOp Type="addNextSibling" GUID="1500500000">
     <Asset>
       <Template>Effect</Template>
       <Values>
         <Standard>
           <GUID>1500500001</GUID>
-          <Name>Productivity Boost (Distributor)</Name>
+          <Name>Lex Annonae Effect</Name>
         </Standard>
         <Effect>
           <EffectScope>ObjectsInMeta</EffectScope>
@@ -37,20 +35,21 @@
           </Buffs>
           <Targets>
             <Item>
-              <GUID>3527</GUID> </Item>
+              <GUID>38370</GUID> 
+            </Item>
           </Targets>
         </Effect>
       </Values>
     </Asset>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID='1500500001'>
+  <ModOp Type="addNextSibling" GUID="55268">
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
           <GUID>1500500002</GUID>
-          <Name>Productivity Boost (Auto Trigger)</Name>
+          <Name>Lex Annonae Trigger</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -63,24 +62,24 @@
           <TriggerActions>
             <Item>
               <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
+                <Template>ActionEffect</Template>
                 <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>1500500001</Asset>
-                      </Item>
-                    </UnlockAssets>
-                    <UnlockingMember>1</UnlockingMember>
-                  </ActionUnlockAsset>
+                  <Action/>
+                  <ActionEffect>
+                    <EffectAsset>1500500001</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                    <AffectProcessingParticipant>1</AffectProcessingParticipant>
+                  </ActionEffect>
                 </Values>
               </TriggerAction>
             </Item>
           </TriggerActions>
         </Trigger>
         <TriggerSetup>
-          <AutoRegister>1</AutoRegister> 
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
         </TriggerSetup>
       </Values>
     </Asset>
