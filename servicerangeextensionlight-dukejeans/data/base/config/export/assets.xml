@@ -1,6 +1,5 @@
 <ModOps>
-  <!-- Roman Market -->
-  <ModOp Type="merge" GUID="3527">
+  <ModOp Type="merge" GUID="3527,6724">
     <Values>
       <EffectSource>
         <RadiusDistance>30</RadiusDistance>
@@ -8,17 +7,8 @@
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Celtic Market -->
-  <ModOp Type="merge" GUID="6724">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>30</RadiusDistance>
-        <StreetDistance>35</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Tavern -->
-  <ModOp Type="merge" GUID="3528">
+
+  <ModOp Type="merge" GUID="3528,6727,3616,6730">
     <Values>
       <EffectSource>
         <RadiusDistance>28</RadiusDistance>
@@ -26,61 +16,15 @@
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Celtic Bardic Hall -->
-  <ModOp Type="merge" GUID="6727">
+
+  <ModOp Type="merge" GUID="3620,8062,3619,6729,55981,55980">
     <Values>
       <EffectSource>
-        <RadiusDistance>28</RadiusDistance>
-        <StreetDistance>33</StreetDistance>
+        <RadiusDistance>80</RadiusDistance> <StreetDistance>85</StreetDistance>
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Roman Grammaticus -->
-  <ModOp Type="merge" GUID="3616">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>28</RadiusDistance>
-        <StreetDistance>33</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Grammaticus -->
-  <ModOp Type="merge" GUID="6730">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>28</RadiusDistance>
-        <StreetDistance>33</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Sporting Grounds -->
-  <ModOp Type="merge" GUID="6725">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>43</RadiusDistance>
-        <StreetDistance>48</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Sanctuary -->
-  <ModOp Type="merge" GUID="3615">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>43</RadiusDistance>
-        <StreetDistance>48</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Fanum -->
-  <ModOp Type="merge" GUID="6728">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>43</RadiusDistance>
-        <StreetDistance>48</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Forum -->
+
   <ModOp Type="merge" GUID="3617">
     <Values>
       <EffectSource>
@@ -89,116 +33,17 @@
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Celtic Town Hall -->
-  <ModOp Type="merge" GUID="6726">
+  
+  <ModOp Type="merge" GUID="6725,3615,6728">
     <Values>
       <EffectSource>
-        <RadiusDistance>53</RadiusDistance>
-        <StreetDistance>58</StreetDistance>
+        <RadiusDistance>43</RadiusDistance>
+        <StreetDistance>48</StreetDistance>
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Roman Baths -->
-  <ModOp Type="merge" GUID="3620">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>78</RadiusDistance>
-        <StreetDistance>83</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Baths -->
-  <ModOp Type="merge" GUID="8062">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>78</RadiusDistance>
-        <StreetDistance>83</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Temple -->
-  <ModOp Type="merge" GUID="3619">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>80</RadiusDistance>
-        <StreetDistance>85</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Temple -->
-  <ModOp Type="merge" GUID="6729">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>80</RadiusDistance>
-        <StreetDistance>85</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Sacred Grove -->
-  <ModOp Type="merge" GUID="55981">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>80</RadiusDistance>
-        <StreetDistance>85</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Gambling House -->
-  <ModOp Type="merge" GUID="31367">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>48</RadiusDistance>
-        <StreetDistance>53</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Gambling House -->
-  <ModOp Type="merge" GUID="37177">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>48</RadiusDistance>
-        <StreetDistance>53</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Theater -->
-  <ModOp Type="merge" GUID="3618">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>58</RadiusDistance>
-        <StreetDistance>63</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Theater -->
-  <ModOp Type="merge" GUID="37178">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>58</RadiusDistance>
-        <StreetDistance>63</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Library -->
-  <ModOp Type="merge" GUID="31368">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>73</RadiusDistance>
-        <StreetDistance>78</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Celtic Barrow -->
-  <ModOp Type="merge" GUID="55980">
-    <Values>
-      <EffectSource>
-        <RadiusDistance>78</RadiusDistance>
-        <StreetDistance>83</StreetDistance>
-      </EffectSource>
-    </Values>
-  </ModOp>
-  <!-- Roman Aqueduct Distributor -->
-  <ModOp Type="merge" GUID="19753">
+
+  <ModOp Type="merge" Path="//Asset[Template='AqueductDistributor']">
     <Values>
       <EffectSource>
         <RadiusDistance>45</RadiusDistance>
@@ -206,12 +51,12 @@
       </EffectSource>
     </Values>
   </ModOp>
-  <!-- Celtic Aqueduct Distributor -->
-  <ModOp Type="merge" GUID="29526">
+
+  <ModOp Type="merge" Path="//Asset[Template='MiniInstitutionBuilding']">
     <Values>
       <EffectSource>
-        <RadiusDistance>45</RadiusDistance>
-        <StreetDistance>45</StreetDistance>
+        <RadiusDistance>22</RadiusDistance>
+        <StreetDistance>28</StreetDistance>
       </EffectSource>
     </Values>
   </ModOp>
