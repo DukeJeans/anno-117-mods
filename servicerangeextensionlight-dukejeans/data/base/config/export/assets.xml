@@ -60,4 +60,13 @@
       </EffectSource>
     </Values>
   </ModOp>
+
+  <ModOp Type="merge" Path="//Asset[Template='MonumentEventBuilding']">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>375</RadiusDistance>
+        <StreetDistance>375</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
 </ModOps>
