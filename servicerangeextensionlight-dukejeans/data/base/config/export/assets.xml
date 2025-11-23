@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="merge" GUID="3527,6724">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>30</RadiusDistance>
+        <StreetDistance>35</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="3528,6727,3616,6730">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>28</RadiusDistance>
+        <StreetDistance>33</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="3620,8062,3619,6729,55981,55980">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>80</RadiusDistance> <StreetDistance>85</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" GUID="3617">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>83</RadiusDistance>
+        <StreetDistance>88</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+  
+  <ModOp Type="merge" GUID="6725,3615,6728">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>43</RadiusDistance>
+        <StreetDistance>48</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" Path="//Asset[Template='AqueductDistributor']">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>45</RadiusDistance>
+        <StreetDistance>45</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" Path="//Asset[Template='MiniInstitutionBuilding']">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>22</RadiusDistance>
+        <StreetDistance>28</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+
+  <ModOp Type="merge" Path="//Asset[Template='MonumentEventBuilding']">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>375</RadiusDistance>
+        <StreetDistance>375</StreetDistance>
+      </EffectSource>
+    </Values>
+  </ModOp>
+</ModOps>

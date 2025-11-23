@@ -1,0 +1,32 @@
+{
+  "ModID": "lex-commoditatis-dukejeans",
+  "Version": "1.0.0",
+  "Anno": 8,
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "ModName": {
+    "English": "Lex Commoditatis: Service Range Extension (50%) (DukeJeans)",
+    "German": "Lex Commoditatis: Service-Reichweite (50%) (DukeJeans)"
+  },
+  "Category": {
+    "English": "Gameplay",
+    "German": "Gameplay"
+  },
+  "Description": {
+    "English": "Enacts the Lex Commoditatis, extending the influence radius of public service buildings (Markets, Baths, Temples, etc.) by roughly 50%. Reduces infrastructure clutter.",
+    "German": "Aktiviert die Lex Commoditatis und erweitert die Einflussreichweite öffentlicher Gebäude (Märkte, Bäder, Tempel usw.) um ca. 50%. Reduziert die Gebäudeüberflutung."
+  },
+  "CreatorName": "DukeJeans",
+  "CreatorContact": "Discord @dukejeans",
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  }
+}
