@@ -10,4 +10,7 @@
       </BuildingRestriction>
     </Values>
   </ModOp>
+  <!--<ModOp Type="merge" Path="//Asset[Values/Buff/SourceCategory='Item']//Buff">
+    <IsStackable>1</IsStackable>
+  </ModOp>-->
 </ModOps>
